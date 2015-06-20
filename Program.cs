@@ -71,6 +71,14 @@ namespace WorkingWithFormat
 
                 Console.WriteLine(phoneNumber);
 
+                // Número RUC
+
+                RUC myRUC = new RUC(1751234567);
+
+                String rucNumber = String.Format("Número RUC: {0:R}", myRUC);
+
+                Console.WriteLine(rucNumber);
+
                 // Línea en blanco
 
                 Console.WriteLine();
